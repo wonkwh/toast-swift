@@ -70,7 +70,6 @@ public class AppleToastView : UIView, ToastView {
         clipsToBounds = true
         layer.zPosition = 999
         layer.cornerRadius = config.cornerRadius ?? frame.height / 2
-
         backgroundColor = config.darkBackgroundColor
         addShadow()
     }
