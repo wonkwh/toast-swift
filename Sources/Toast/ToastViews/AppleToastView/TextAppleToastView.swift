@@ -39,6 +39,7 @@ public class TextToastView : UIStackView {
         alignment = viewConfig.textAlignment
 
         self.titleLabel.text = title
+        self.titleLabel.textColor = .white
         self.titleLabel.numberOfLines = viewConfig.titleNumberOfLines
         self.titleLabel.font = .systemFont(ofSize: 14, weight: .bold)
         addArrangedSubview(self.titleLabel)

@@ -80,6 +80,7 @@ public class IconAppleToastView : UIStackView {
         self.titleLabel.text = title
         self.titleLabel.numberOfLines = viewConfig.titleNumberOfLines
         self.titleLabel.font = .systemFont(ofSize: 14, weight: .bold)
+        self.titleLabel.textColor = .white
         self.vStack.addArrangedSubview(self.titleLabel)
 
         if let subtitle = subtitle {
